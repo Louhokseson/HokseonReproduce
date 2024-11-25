@@ -1,7 +1,11 @@
 name = "HokseonReproduce"
 authors = ["Hokseon"]
-[compat]
-julia = "1.10.3"
-DrWatson = "2.15.0"
+
 [deps]
+CairoMakie = "13f3f980-e62b-5c42-98c6-ff1f3baf88f0"
 DrWatson = "634d3b9d-ee7a-5ddf-bec9-22491ea816e1"
+JamesPlots = "65b38e5c-fa97-498f-814c-2dc0ae7de8a9"
+
+[compat]
+DrWatson = "2.15.0"
+julia = "1.10.3"
